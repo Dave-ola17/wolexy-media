@@ -1,4 +1,6 @@
+import Navbar from '@/components/Navbar'
 import Image from 'next/image'
+
 
 const images = [
   {
@@ -23,7 +25,16 @@ export default function Home() {
 
   return (
     <main className="">
-      <h3 className=' text-center text-blue-500 '>hello world, this is Dave</h3>
+      <Navbar />
+      <section id='contact' className=' text-white h-screen bg-gray-300 text-center '>
+        <h1 className=' m-auto font-waterfall text-7xl text-purple-600 font-bold '>Contact Us</h1>
+      </section>
+      <section id='gallery' className='   m-auto h-screen  text-7xl bg-white '>
+        <h1 className=' m-auto font-waterfall text-7xl font-waterfall text-purple-600 font-bold '>Gallery</h1>
+      </section>
+      <section id='about' className='   m-auto h-screen font-waterfall text-7xl bg-black '>
+        <h1 className=' m-auto font-waterfall text-7xl text-purple-600 font-bold '>About Us</h1>
+      </section>
     </main>
   )
 }
