@@ -8,8 +8,8 @@ const Biography = () => {
         <div className='text-center'>
             <h3 className=" mx-10 underline decoration-solid underline-offset-8 text-[20px] font-serif ">ABOUT THE AUTHOR</h3>
         </div>
-        <div className=' mt-10 flex flex-col md:flex-row md:gap-10 justify-around items-center '>
-            <div>
+        <div className='md:container mt-10 flex flex-col md:flex-row md:gap-10 justify-around items-center '>
+            <div className=" md:col-span-4 ">
                 <Image 
                     className=' border-none rounded-md '
                     src='/wolexy/wolexyImage4.jpg'
@@ -18,7 +18,7 @@ const Biography = () => {
                     height={500}
                 />
             </div>
-            <div className=" my-10 md:mx-0 ">
+            <div className=" md:col-span-4 my-10 md:mx-0 ">
                 <h5 className=" font-mono text-[17px] ">
                     Hi, I'm Ademuyiwa Adewole. Lead photographer here at LIFEEZY Photography. 
                     I specialize in Portrait, Corprate, Fashion and Weddings Photography. 
