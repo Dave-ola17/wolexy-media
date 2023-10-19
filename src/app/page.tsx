@@ -1,7 +1,8 @@
 import BackgroundSlider from '@/components/BackgroundSlider'
+import Biography from '@/components/Biography';
 import Navbar from '@/components/Navbar'
 import Tab from '@/components/Tab';
-import Image from 'next/image'
+import Footer from '@/components/Footer';
 
 
 export default function Home() {
@@ -12,15 +13,8 @@ export default function Home() {
       <Navbar />
       <BackgroundSlider />
       <Tab />
-      <section id='contact' className=' text-white h-screen bg-gray-300 text-center '>
-        <h1 className=' m-auto font-waterfall text-7xl text-purple-600 font-bold '>Contact Us</h1>
-      </section>
-      <section id='gallery' className='   m-auto h-screen  text-7xl bg-white '>
-        <h1 className=' m-auto font-waterfall text-7xl font-waterfall text-purple-600 font-bold '>Gallery</h1>
-      </section>
-      <section id='about' className='   m-auto h-screen font-waterfall text-7xl bg-black '>
-        <h1 className=' m-auto font-waterfall text-7xl text-purple-600 font-bold '>About Us</h1>
-      </section>
+      <Biography />
+      <Footer />
     </main>
   )
 }

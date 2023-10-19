@@ -35,9 +35,9 @@ const Navbar = () => {
                   <button className=' p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 ' onClick={() => setNavbar(!navbar)}>
                     {
                       navbar ? (                        
-                        <AiOutlineClose className=" text-gray-50 focus:border-none  " width={30} height={30} alt="Close Menu" />
+                        <AiOutlineClose className=" text-yellow-500 focus:border-none  " width={30} height={30} alt="Close Menu" />
                       ): (
-                        <AiOutlineMenu className=" text-gray-50 focus:border-none  " width={30} height={30} alt="Menu" />
+                        <AiOutlineMenu className=" text-yellow-500 focus:border-none  " width={30} height={30} alt="Menu" />
                       )
                     }
                   </button>
