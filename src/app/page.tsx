@@ -1,24 +1,8 @@
+import BackgroundSlider from '@/components/BackgroundSlider'
 import Navbar from '@/components/Navbar'
+import Tab from '@/components/Tab';
 import Image from 'next/image'
 
-
-const images = [
-  {
-    url: '/wolexy/qudus 1 (1).jpg'
-  },
-  {
-    url: '/wolexy/wolexyImage6.jpg'
-  },
-  {
-    url: '/wolexy/sharon4.jpg'
-  },
-  {
-    url: '/wolexy/wolexyImage2.jpg'
-  },
-  {
-    url: '/wolexy/david 4.jpg'
-  },
-]
 
 export default function Home() {
  
@@ -26,6 +10,8 @@ export default function Home() {
   return (
     <main className="">
       <Navbar />
+      <BackgroundSlider />
+      <Tab />
       <section id='contact' className=' text-white h-screen bg-gray-300 text-center '>
         <h1 className=' m-auto font-waterfall text-7xl text-purple-600 font-bold '>Contact Us</h1>
       </section>

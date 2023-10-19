@@ -26,9 +26,9 @@ const tabs = [
 
 function MyTabs() {
     return (
-      <div className="flex flex-col h-full items-center">
+      <div className="flex flex-col h-full items-center pt-10">
       <Tab.Group>
-        <Tab.List className="flex justify-center space-x-12">
+        <Tab.List className="flex flex-row justify-around">
           {tabs.map((tab) => (
             <Tab key={tab.key} className="p-2">
               {({ selected }) => (
