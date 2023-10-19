@@ -23,7 +23,7 @@ function BackgroundSlider() {
   return (
     <div className="relative w-screen h-screen">
       <Image
-        className="object-cover w-full transition duration-3000 ease-in-out h-full"
+        className="object-cover w-full transition ease-in-out h-full"
         src={imageSources[currentImageIndex]}
         alt="Background Image"
         layout="fill"
