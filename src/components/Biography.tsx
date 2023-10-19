@@ -20,13 +20,13 @@ const Biography = () => {
             </div>
             <div className=" md:col-span-4 my-10 md:mx-0 ">
                 <h5 className=" font-mono text-[17px] ">
-                    Hi, I'm Ademuyiwa Adewole. Lead photographer here at LIFEEZY Photography. 
+                    Hi, I am Ademuyiwa Adewole. Lead photographer here at LIFEEZY Photography. 
                     I specialize in Portrait, Corprate, Fashion and Weddings Photography. 
                     I love connecting with people and helping them tell beautiful stories through photographs. 
                     I like to build genuine connection with my clients while taking timeless photographs of them. 
-                    I'm capable of making your special moments last forever...yeah that's one of my superpowers. 
+                    I am capable of making your special moments last forever...yeah that is one of my superpowers. 
                     I consider myself a minimalist, simplicity and elegance does it for me every time. 
-                    I love good food, anything that involves exploring new good food, I'm in!
+                    I love good food, anything that involves exploring new good food, I am in!
                     I believe in the expression of individual uniqueness and originality, even more 
                     I love to capture it in photographs. Authenticity, Simplicity and Elegance are some of my 
                     favorite words to live by.
