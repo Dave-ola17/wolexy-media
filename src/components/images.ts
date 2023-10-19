@@ -71,5 +71,17 @@ const images = [
         alt: 'Gem7',
         category: 'weddings',
       },
+      {
+        id: 13,
+        src: '/wolexy/4.jpg',
+        alt: 'Fashionista',
+        category: 'social',
+      },
+      {
+        id: 14,
+        src: '/wolexy/wolexyImage7.jpg',
+        alt: 'Gem7',
+        category: 'weddings',
+      },
 ]
 export default images;
