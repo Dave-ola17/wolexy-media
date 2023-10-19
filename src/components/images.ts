@@ -55,7 +55,7 @@ const images = [
       },
       {
         id: 10,
-        src: '/wolexy/wolexyImage2.jpg',
+        src: '/wolexy/wolexyImage5.JPG',
         alt: 'Gem5',
         category: 'weddings',
       },
