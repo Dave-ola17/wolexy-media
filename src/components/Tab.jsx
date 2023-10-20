@@ -72,11 +72,12 @@ function MyTabs() {
           ))}
         </Tab.Panels>
       </Tab.Group>
+      {/* code for modal popup */}
           {
             modalOpen && (
               <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-80"  onClick={() => setModalOpen(false)}>
-                <div className="bg-gray-400 p-4 rounded-lg">
-                  <button className=" text-yellow-700 top-2  text-3xl" onClick={() => setModalOpen(false)}>
+                <div className="bg-transparent p-4 rounded-lg">
+                  <button className=" text-end text-yellow-700 top-2  text-3xl" onClick={() => setModalOpen(false)}>
                     &times;
                   </button>
                   <Image

@@ -3,11 +3,23 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import { FaInstagram, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 
 const Navbar = () => {
   const [navbar, setNavbar ] = useState(false)
   const [navscroll, setNavscroll ] = useState(false)
+
+  // state for modal
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const openModal = () => {
+      setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+      setIsModalOpen(false);
+    };
+
 
     useEffect(() => {
       const handleScroll = () => {
@@ -49,17 +61,17 @@ const Navbar = () => {
               ${navbar ? 'pb-12 md:p-0 block': 'hidden'}`}>
                 <ul className=' h-screen md:h-auto items-center justify-end md:flex '> 
                   <li className='pb-6 text-md items-center text-white py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent'> 
-                    <Link className='font-mono text-lg' href='/gallery' onClick={() => setNavbar(!navbar)}>
+                    <Link className='font-mono text-yellow-500 text-lg' href='/gallery' onClick={() => setNavbar(!navbar)}>
                       Gallery
                     </Link>
                   </li>
-                  <li className='pb-6 text-md items-center text-white py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent'> 
-                    <Link className='font-mono text-lg' href='#about' onClick={() => setNavbar(!navbar)}>
+                  <li  className='pb-6 text-md items-center text-white py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent'> 
+                    <Link className='font-mono text-yellow-500 text-lg' href='#about' onClick={() => setNavbar(!navbar)}>
                       About Us
                     </Link>
                   </li>
                   <li className='pb-6 text-md items-center text-white py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent'> 
-                    <Link className='font-mono text-lg' href='#contact' onClick={() => setNavbar(!navbar)}>
+                    <Link className='font-mono text-yellow-500 text-lg' href='#contact' onClick={() => setNavbar(!navbar)}>
                       Contact Us
                     </Link>
                   </li>

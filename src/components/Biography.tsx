@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Biography = () => {
   return (
-    <div className="mt-10 mx-5 md:mx-0">
+    <div id="about" className="mt-10 mx-5 md:mx-0">
       <div className="text-center">
         <h3 className="mx-10 underline decoration-solid underline-offset-8 text-2xl font-serif">
           ABOUT THE AUTHOR
@@ -12,7 +12,7 @@ const Biography = () => {
       <div className="md:container mt-10 md:flex md:gap-10 justify-center items-center">
         <div className="md:flex-1 text-center items-center">
           <Image
-            className="border-none md:mx-auto rounded-md"
+            className="border-none mx-auto rounded-md"
             src="/wolexy/wolexyImage4.jpg"
             alt="Image of our CEO"
             width={400}
