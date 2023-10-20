@@ -18,7 +18,7 @@ const Footer = () => {
           <h3 className="underline text-yellow-500 decoration-solid underline-offset-8 text-2xl font-serif">
             Contact Us
           </h3>
-          <div className="mt-4 gap-3">
+          <div className="mt-4 mt:items-center gap-3">
             <p className="flex flex-row gap-1">
               <FaEnvelope className="my-auto" size={15} />{" "}
               <i>ademuyiwanur81@gmail.com</i>
@@ -36,7 +36,7 @@ const Footer = () => {
           <h3 className="underline decoration-solid text-yellow-500 underline-offset-8 text-2xl font-serif">
             Quick Links
           </h3>
-          <ul className="mt-4">
+          <ul className="mt-4 ">
             <li>
               <a href="/">Home</a>
             </li>
@@ -55,7 +55,7 @@ const Footer = () => {
           <h3 className="underline text-yellow-500 decoration-solid underline-offset-8 text-2xl font-serif">
             Follow Us
           </h3>
-          <div className="flex justify-center md:justify-start mt-4 md:space-x-4">
+          <div className="flex gap-1 justify-center md:justify-start mt-4 md:space-x-4">
             <div>
               <FaWhatsapp size={30} />
               <a

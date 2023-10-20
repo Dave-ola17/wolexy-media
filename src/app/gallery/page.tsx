@@ -19,7 +19,7 @@ const page = () => {
                     <Link href="/">Back</Link>           
                 </button>
             </div>        
-            <header className=' flex justify-center  '> 
+            <header className=' flex justify-center mt-5 '> 
                 <h2 className=' underline text-orange-500 decoration-solid underline-offset-8 text-2xl font-serif'>OUR GALLERY</h2>
             </header>
             <main>

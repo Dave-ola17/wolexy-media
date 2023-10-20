@@ -5,7 +5,7 @@ const Biography = () => {
   return (
     <div id="about" className="mt-10 mx-5 md:mx-0">
       <div className="text-center">
-        <h3 className="mx-10 underline decoration-solid underline-offset-8 text-2xl font-serif">
+        <h3 className="mx-10 text-yellow-500 underline decoration-solid underline-offset-8 text-2xl font-serif">
           ABOUT THE AUTHOR
         </h3>
       </div>
