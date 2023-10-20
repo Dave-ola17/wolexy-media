@@ -18,7 +18,7 @@ const Footer = () => {
           <h3 className="underline text-yellow-500 decoration-solid underline-offset-8 text-2xl font-serif">
             Contact Us
           </h3>
-          <div className="mt-4 md:text-center md:items-center gap-3">
+          <div className="mt-4 md:mx-auto md:text-center md:items-center gap-3">
             <p className="flex flex-row gap-1">
               <FaEnvelope className="my-auto" size={15} />{" "}
               <i>ademuyiwanur81@gmail.com</i>
