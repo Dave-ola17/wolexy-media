@@ -1,4 +1,5 @@
 "use client"
+import { useState } from 'react'
 import { Tab } from '@headlessui/react'
 import Masonry from 'react-masonry-css'
 import  images  from './images'
@@ -25,6 +26,8 @@ const tabs = [
 ]
 
 function MyTabs() {
+  const [modalOpen, setModalOpen ] = useState(false);
+  const [selectedImage, setSelectedImage ] = useState(null);
     return (
       <div className="flex flex-col h-full items-center pt-10">
       <Tab.Group>
@@ -57,6 +60,10 @@ function MyTabs() {
                         className="rounded cursor-pointer"
                         src={image.src}
                         alt={image.alt}
+                        onClick={() => {
+                          setSelectedImage(image);
+                          setModalOpen(true);
+                        }}
                       />
                     </div>
                   ))}
@@ -65,6 +72,23 @@ function MyTabs() {
           ))}
         </Tab.Panels>
       </Tab.Group>
+          {
+            modalOpen && (
+              <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-80"  onClick={() => setModalOpen(false)}>
+                <div className="bg-gray-400 p-4 rounded-lg">
+                  <button className=" text-yellow-700 top-2  text-3xl" onClick={() => setModalOpen(false)}>
+                    &times;
+                  </button>
+                  <Image
+                    width={500}
+                    height={500}
+                    src={selectedImage.src}
+                    alt={selectedImage.alt}
+                  />
+                </div>
+              </div>
+            )
+          }
     </div>
     );
 }

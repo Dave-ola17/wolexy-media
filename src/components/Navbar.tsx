@@ -49,7 +49,7 @@ const Navbar = () => {
               ${navbar ? 'pb-12 md:p-0 block': 'hidden'}`}>
                 <ul className=' h-screen md:h-auto items-center justify-end md:flex '> 
                   <li className='pb-6 text-md items-center text-white py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-600 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent'> 
-                    <Link className='font-mono text-lg' href='/home' onClick={() => setNavbar(!navbar)}>
+                    <Link className='font-mono text-lg' href='/gallery' onClick={() => setNavbar(!navbar)}>
                       Gallery
                     </Link>
                   </li>
