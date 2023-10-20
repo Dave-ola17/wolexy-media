@@ -18,7 +18,7 @@ const Footer = () => {
           <h3 className="underline text-yellow-500 decoration-solid underline-offset-8 text-2xl font-serif">
             Contact Us
           </h3>
-          <div className="mt-4 md:mx-auto md:text-center md:items-center gap-3">
+          <div className="mt-4 md:justify-center md:mx-auto md:text-center md:items-center gap-3">
             <p className="flex flex-row gap-1">
               <FaEnvelope className="my-auto" size={15} />{" "}
               <i>ademuyiwanur81@gmail.com</i>
@@ -56,26 +56,23 @@ const Footer = () => {
             Follow Us
           </h3>
           <div className="flex gap-1 justify-center md:justify-start mt-4 md:space-x-4">
-            <div>
-              <FaWhatsapp size={30} />
+            <div>              
               <a
                 href="https://wa.me/qr/X6KE7UFVXSZEA1"
                 className="text-white hover:text-black"
-              ></a>
+              ><FaWhatsapp size={30} /></a>
             </div>
-            <div>
-              <FaInstagram size={30} />
+            <div>              
               <a
                 href="https://instagram.com/lifeezy_media?igshid=MzMyNGUyNmU2YQ=="
                 className="text-white hover:text-black"
-              ></a>
+              ><FaInstagram size={30} /></a>
             </div>
-            <div>
-              <FaLinkedin size={30} />
+            <div>              
               <a
                 href="https://www.linkedin.com/in/adewole-ademuyiwa-17b81a266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="text-white hover:text-black"
-              ></a>
+              ><FaLinkedin size={30} /></a>
             </div>
           </div>
         </div>
