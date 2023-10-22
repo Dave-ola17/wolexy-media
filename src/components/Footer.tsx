@@ -14,11 +14,11 @@ const Footer = () => {
       className="bg-gray-800 text-center md:text-left text-white py-6"
     >
       <div className="container mx-auto space-y-8 md:space-y-0 md:flex md:justify-around">
-        <div className="text-center md:text-left md:flex md:justify-start md:items-center">
+        <div className="text-center flex flex-col md:text-left md:flex md:justify-start md:items-center">
           <h3 className="underline text-yellow-500 decoration-solid underline-offset-8 text-2xl font-serif">
             Contact Us
           </h3>
-          <div className="mt-4 gap-3">
+          <div className="flex flex-col item-center justify-center mx-auto mt-4 gap-3">
             <p className="flex flex-row gap-1">
               <FaEnvelope className="my-auto" size={15} />{" "}
               <i>ademuyiwanur81@gmail.com</i>
