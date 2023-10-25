@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const Biography = () => {
   return (
-    <div id="about" className="mt-10 my-10 mx-5 md:mx-0">
+    <div id="about" className="mt-10  my-10 mx-5 md:mx-0">
       <div className="text-center">
         <h3 className="mx-10 text-yellow-500 underline decoration-solid underline-offset-8 text-2xl font-serif">
-          ABOUT THE AUTHOR
+          LEAD PHOTOGRAPHER
         </h3>
       </div>
       <div className="md:container mt-10 md:flex md:gap-10 justify-center items-center">
