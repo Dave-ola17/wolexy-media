@@ -175,7 +175,7 @@ const images = [
       },
       {
         id: 30,
-        src: '/wolexy/bob clint 3.jpg',
+        src: '/wolexy/bob clint 2.jpg',
         alt: 'Wolexy image15',
         category: 'outdoor',
       },
