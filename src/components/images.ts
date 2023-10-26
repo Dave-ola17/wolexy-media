@@ -235,7 +235,7 @@ const images = [
       },
       {
         id: 40,
-        src: '/wolexy/DSC_0243 (3).jpg',
+        src: '/wolexy/DSC_0243 (1).jpg',
         alt: 'Wolexy image25',
         category: 'outdoor',
       },
