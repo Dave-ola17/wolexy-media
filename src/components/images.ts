@@ -223,19 +223,19 @@ const images = [
       },
       {
         id: 38,
-        src: '/wolexy/daddy (1).jpg',
+        src: '/wolexy/DSC_0003.jpg',
         alt: 'Wolexy image23',
         category: 'outdoor',
       },
       {
         id: 39,
-        src: '/wolexy/daddy 3.jpg',
+        src: '/wolexy/DSC_0120 (1).jpg',
         alt: 'Wolexy image24',
         category: 'social',
       },
       {
         id: 40,
-        src: '/wolexy/daddy.jpg',
+        src: '/wolexy/DSC_0243 (3).jpg',
         alt: 'Wolexy image25',
         category: 'outdoor',
       },
